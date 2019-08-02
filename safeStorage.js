@@ -3,7 +3,7 @@
 
 _('isUndef memStorage')
 
-function exports(type, memReplacement) {
+exports = function (type, memReplacement) {
   if (isUndef(memReplacement)) memReplacement = true
 
   let ret

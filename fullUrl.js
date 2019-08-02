@@ -3,7 +3,7 @@
 
 let link = document.createElement('a')
 
-function exports(href) {
+exports = function (href) {
   link.href = href
 
   return (

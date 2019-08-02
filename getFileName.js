@@ -3,7 +3,7 @@
 
 _('last trim')
 
-function exports(url) {
+exports = function (url) {
   let ret = last(url.split('/'))
 
   if (ret.indexOf('?') > -1) ret = trim(ret.split('?')[0])

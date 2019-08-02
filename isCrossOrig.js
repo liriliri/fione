@@ -5,6 +5,6 @@ _('startWith')
 
 let origin = window.location.origin
 
-function exports(url) {
+exports = function (url) {
   return !startWith(url, origin)
 }

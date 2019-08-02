@@ -3,7 +3,7 @@
 
 _('escapeJsStr')
 
-function exports(str) {
+exports = function (str) {
   return escapeJsStr(str)
     .replace(/\\'/g, "'")
     .replace(/\t/g, '\\t')

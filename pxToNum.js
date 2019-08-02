@@ -3,6 +3,6 @@
 
 _('toNum')
 
-function exports(str) {
+exports = function (str) {
   return toNum(str.replace('px', ''))
 }
